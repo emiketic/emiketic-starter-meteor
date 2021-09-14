@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# cache
+.cache
+build
+
+# meteor
+/.meteor
+
+# testing
+/coverage
+
+# misc
+.strapi-updater.json
+.DS_Store
+
+yarn-debug.log*
+yarn-error.log*
