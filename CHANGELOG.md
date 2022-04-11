@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/emiketic/emiketic-starter-meteor/compare/v0.0.1...v0.1.0) (2022-04-11)
+
+
+### Features
+
+* Support for AntD + integrates account system + private routes ([de5137f](https://github.com/emiketic/emiketic-starter-meteor/commit/de5137f186fe20a348ea50bdf9c753cd161a68e5))
+* Upgraded Meteor and deps ([78ff0d9](https://github.com/emiketic/emiketic-starter-meteor/commit/78ff0d93698cb8607e46c099f16062029d2cca09))
+
 ### 0.0.1 (2021-09-14)
 
 
