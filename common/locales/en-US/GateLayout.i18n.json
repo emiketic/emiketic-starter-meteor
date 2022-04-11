@@ -1,0 +1,48 @@
+{
+  "_namespace": "GateLayout",
+  "LoginPage": {
+    "title": "Welcome",
+    "ctaLogin": "Login",
+    "ctaForgotPassword": "Forgot password?",
+    "form": {
+      "email": {
+        "label": "E-mail address",
+        "placeholder": "example@website.com",
+        "validation": {
+          "type": "Please provide a valid e-mail address",
+          "required": "Your e-mail address cannot be empty"
+        }
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Your passowrd",
+        "validation": {
+          "required": "Your password cannot be empty"
+        }
+      }
+    },
+    "errors": {
+      "unknown": "Could not log you in"
+    }
+  },
+  "ForgortPasswordPage": {
+    "title": "Forgot your password?",
+    "description": "To reset your password, please enter your email address.",
+    "ctaReset": "Reset",
+    "backCta": "Back home",
+    "checkEmail": "Check your email",
+    "sentEmail": "We have  sent a password recover instructions to your email.",
+    "spam": "Did not receive the email? Check your spam filter",
+    "sentEmailSuccess": "Email sent successfully",
+    "sentEmailError": "Unable to send email, your email address does not exist",
+    "sentPasswordSuccess": "Password was successfully changed"
+  },
+  "ResetPasswordPage": {
+    "title": "Create new password",
+    "description": "Your new password must be different from previous used passwords",
+    "validationRequired": "Please confirm your password!",
+    "validationPlaceholder": "The two passwords entered are not identical!",
+    "validationCondition": "This password does not meet the security requirements. A password must contain at least 8 characters, at least one lowercase letter and one uppercase letter",
+    "confirmPassword": "Confirm Password"
+  }
+}

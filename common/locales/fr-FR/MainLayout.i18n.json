@@ -1,0 +1,7 @@
+{
+  "_namespace": "MainLayout",
+  "UserMenu": {
+    "settings": "Paramètres",
+    "logout": "Se déconnecter"
+  }
+}

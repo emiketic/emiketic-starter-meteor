@@ -18,38 +18,36 @@
     "release:dry": "standard-version --dry-run"
   },
   "dependencies": {
-    "@babel/runtime": "^7.17.2",
-    "i18next": "^21.6.12",
-    "i18next-http-backend": "^1.3.2",
-    "meteor-node-stubs": "^1.1.0",
+    "@ant-design/icons": "^4.7.0",
+    "@babel/runtime": "^7.17.8",
+    "antd": "^4.19.5",
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "dotenv-flow": "^3.2.0",
+    "husky": "^6.0.0",
+    "meteor-node-stubs": "^1.2.1",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.2"
+    "react-router-dom": "^6.3.0"
   },
-  "meteor": {
-    "mainModule": {
-      "client": "client/main.js",
-      "server": "server/main.js"
-    },
-    "testModule": "tests/main.js"
-  },
+  "meteor": {},
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.10.0",
+    "eslint": "^8.12.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-react-app": "^7.0.0",
     "eslint-import-resolver-meteor": "^0.4.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-mdx": "^1.16.0",
     "eslint-plugin-meteor": "^7.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.2",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^7.0.4",
-    "prettier": "^2.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "prettier": "^2.6.2",
     "standard-version": "^9.3.2"
   }
 }

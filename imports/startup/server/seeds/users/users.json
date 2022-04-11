@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@acme.com",
+      "password": "password",
+      "roles": ["admin"]
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Twain",
+      "email": "mark@acme.com",
+      "password": "password",
+      "roles": ["manager"]
+    }
+  ]
+}

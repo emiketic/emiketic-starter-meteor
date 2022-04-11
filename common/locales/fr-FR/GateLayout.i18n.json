@@ -1,0 +1,48 @@
+{
+  "_namespace": "GateLayout",
+  "LoginPage": {
+    "title": "Bienvenue",
+    "ctaLogin": "Connexion",
+    "ctaForgotPassword": "Mot de passe oublié ?",
+    "form": {
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "exemple@website.fr",
+        "validation": {
+          "type": "Veuillez saisir une adresse e-mail valide",
+          "required": "Ce champ ne peut être vide"
+        }
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Votre mot de passe",
+        "validation": {
+          "required": "Ce champ ne peut être vide"
+        }
+      }
+    },
+    "errors": {
+      "unknown": "Impossible de se connecter"
+    }
+  },
+  "ForgortPasswordPage": {
+    "title": "Mot de passe oublié?",
+    "description": "Pour réinitialiser votre mot de passe, veuillez saisir votre adresse e-mail.",
+    "ctaReset": "Réinitialiser",
+    "backCta": "Accueil",
+    "checkEmail": "Vérifiez votre e-mail",
+    "sentEmail": "Nous avons envoyé des instructions de récupération de mot de passe à votre adresse e-mail.",
+    "spam": "Vous n'avez pas reçu l'e-mail ? Vérifiez votre filtre anti-spam",
+    "sentEmailSuccess": "E-mail envoyé avec succès",
+    "sentEmailError": "Impossible d'envoyer l'e-mail, votre adresse e-mail n'existe pas",
+    "sentPasswordSuccess": "Mot de passe a été changer avec succès"
+  },
+  "ResetPasswordPage": {
+    "title": "Créer un nouveau mot de passe",
+    "description": "Votre nouveau mot de passe doit être différent des précédents mots de passe utilisés",
+    "validationRequired": "Veuillez confirmer votre mot de passe!",
+    "validationPlaceholder": "Les deux mots de passe saisis ne sont pas identiques !",
+    "validationCondition": "Ce mot de passe ne remplit pas les conditions de sécurité requises. Un mot de passe doit contenir au minimum 8 caractères, au moins une lettre minuscule et une lettre majuscule",
+    "confirmPassword": "Confirmez votre mot de passe"
+  }
+}

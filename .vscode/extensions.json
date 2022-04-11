@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "ban.spellright",
     "mgmcdermott.vscode-language-babel",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",

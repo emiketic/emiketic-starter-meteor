@@ -1,0 +1,7 @@
+{
+  "_namespace": "MainLayout",
+  "UserMenu": {
+    "settings": "Settings",
+    "logout": "Logout"
+  }
+}

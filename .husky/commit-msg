@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-./node_modules/.bin/commitlint --edit 
+# @TODO: Investigate issue with Husky 7
+# meteor npm run ./node_modules/.bin/commitlint --edit 

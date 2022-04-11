@@ -12,8 +12,8 @@ build
 /coverage
 
 # misc
-.strapi-updater.json
 .DS_Store
+CHANGELOG.md
 
 yarn-debug.log*
 yarn-error.log*

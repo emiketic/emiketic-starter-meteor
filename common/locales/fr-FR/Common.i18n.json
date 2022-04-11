@@ -1,0 +1,80 @@
+{
+  "_namespace": "Common",
+  "prompts": {
+    "yes": "Oui",
+    "no": "Non",
+    "confirm": "Confirmer",
+    "cancel": "Annuler"
+  },
+  "notifications": {
+    "requiredFields": {
+      "sheet": {
+        "beforeSaving": "Un ou plusieurs champs obligatoires doivent être renseignés l'enregistrement du projet/opération",
+        "beforeValidation": "Un ou plusieurs champs obligatoires doivent être renseignés avant la soumission à validation"
+      }
+    }
+  },
+  "cta": {
+    "save": "Enregistrer",
+    "validate": "Valider",
+    "cancel": "Annuler",
+    "export": "Exporter",
+    "add": "Ajouter"
+  },
+  "units": {
+    "day": "Jour(s)",
+    "workableDay": "Jours ouvrés",
+    "week": "Semaine(s)",
+    "month": "Mois",
+    "quarter": "Trimèstre(s)",
+    "year": "Année(s)"
+  },
+  "auth": {
+    "expiredSession": "Session expirée. Vous êtes déconnecté",
+    "loggedOut": "Session fermée",
+    "loggedIn": "Nouvelle session ouverte"
+  },
+  "errorPages": {
+    "common": {
+      "error": "Erreur",
+      "backCta": "Retour au tableau de bord",
+      "backToForgotPassword": "Retour au page de changement de mot de passe",
+      "backToLogin": "Retour à l'authentification"
+    },
+    "notFound": {
+      "reason": {
+        "path": {
+          "message": "Chemin inexistant ou page manquante"
+        },
+        "resource": {
+          "message": "Ressource introuvable"
+        },
+        "request": {
+          "message": "Requête ou données fournies invalides"
+        }
+      },
+      "backCta": "Retour au tableau de bord"
+    },
+    "activation": {
+      "title": "Lien d'activation expiré",
+      "subTitle": "Vous devez refaire l'activation avec un nouveau lien"
+    },
+    "resetPasswordExpired": {
+      "title": "Lien de changement de mot de passe expiré",
+      "subTitle": "Vous devez refaire le changement de mot de passe avec un nouveau lien"
+    },
+    "serverError": {
+      "reason": {
+        "500": {
+          "message": "Une erreur serveur est survenue"
+        }
+      }
+    },
+    "offline": {
+      "title": "Application deconnectée",
+      "message": "L'application est deconectée d'internet ou du serveur",
+      "reloadCta": "Réssayer la requête"
+    }
+  },
+  "unknownError": "Une erreur inconnue est survenue"
+}

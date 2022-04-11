@@ -1,0 +1,80 @@
+{
+  "_namespace": "Common",
+  "prompts": {
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "notifications": {
+    "requiredFields": {
+      "sheet": {
+        "beforeSaving": "One or several required fields must be supplied prior to saving project or operation",
+        "beforeValidation": "One or several required fields must be supplied prior to submitting sheet for validation"
+      }
+    }
+  },
+  "cta": {
+    "save": "Save",
+    "validate": "Validate",
+    "cancel": "Cancel",
+    "export": "Export",
+    "add": "Add"
+  },
+  "auth": {
+    "expiredSession": "Expired session. You are now disconnected",
+    "loggedOut": "Successfully logged out",
+    "loggedIn": "Logged in. Started new session"
+  },
+  "units": {
+    "day": "Days(s)",
+    "workableDay": "Workable days",
+    "week": "Weeks(s)",
+    "month": "Month(s)",
+    "quarter": "Quarter(s)",
+    "year": "Year(s)"
+  },
+  "errorPages": {
+    "common": {
+      "error": "Error",
+      "backCta": "Back to dashboard",
+      "backToForgotPassword": "Back to forgot password",
+      "backToLogin": "Back to login"
+    },
+    "notFound": {
+      "reason": {
+        "path": {
+          "message": "Path not found or missing pag"
+        },
+        "resource": {
+          "message": "Resource not found"
+        },
+        "request": {
+          "message": "Invalid request or supplied data"
+        }
+      }
+    },
+    "activation": {
+      "title": "Activation link expired",
+      "subTitle": "You need to request activation again with a new link"
+    },
+    "resetPasswordExpired": {
+      "title": "Reset password link expired",
+      "subTitle": "You need to request reset password again with a new link"
+    },
+    "serverError": {
+      "reason": {
+        "500": {
+          "message": "A server error occured"
+        }
+      }
+    },
+    "offline": {
+      "title": "App is offline",
+      "message": "You are offline or application lost network connection",
+      "reloadCta": "Retry request"
+    }
+  },
+  "unknownError": "Unknown error"
+}

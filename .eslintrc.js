@@ -2,15 +2,11 @@ module.exports = {
   env: {
     node: true,
     browser: false,
-    commonjs: true,
     es2021: true,
     mocha: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:import/recommended',
-    '@meteorjs/eslint-config-meteor',
-  ],
+  // @TODO: Debug plugin '@meteorjs/eslint-config-meteor',
+  extends: ['eslint:recommended', 'plugin:import/recommended', 'react-app'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -21,14 +17,17 @@ module.exports = {
   },
   plugins: [],
   globals: {
-    strapi: true,
     Meteor: true,
     document: true,
+    navigator: true,
+  },
+  settings: {
+    'import/resolver': 'meteor',
   },
   rules: {
     /* ******************************* FORMATTING ******************************* */
 
-    indent: ['error', 2],
+    indent: 0,
     'linebreak-style': ['error', 'unix'],
     quotes: [2, 'single', { avoidEscape: true }],
     semi: ['error', 'always'],
@@ -54,4 +53,22 @@ module.exports = {
 
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
+  overrides: [
+    // Don't lint markdown and MDX files for the mentionned rules
+    {
+      files: ['*.mdx'],
+      rules: {
+        semi: 0,
+      },
+    },
+    // Tolerate non-camelcase variable naming for these files
+    // Tolerate i18n hook as default named import
+    {
+      files: ['./localization/i18n.js'],
+      rules: {
+        camelcase: 0,
+        'import/no-named-as-default-member': 0,
+      },
+    },
+  ],
 };
