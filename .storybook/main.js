@@ -9,4 +9,21 @@ module.exports = {
     '@storybook/addon-interactions',
   ],
   framework: '@storybook/react',
+  webpackFinal: async (config, { configType }) => {
+    config.module.rules.push({
+      test: /\.less$/,
+      use: [
+        'style-loader',
+        'css-loader',
+        {
+          loader: 'less-loader',
+          options: {
+            javascriptEnabled: true,
+            sourceMap: true,
+          },
+        },
+      ],
+    });
+    return config;
+  },
 };
