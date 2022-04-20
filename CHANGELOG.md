@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/emiketic/emiketic-starter-meteor/compare/v0.1.0...v0.1.1) (2022-04-20)
+
+
+### Features
+
+* Integrate storybook with meteor ([b2f8ad9](https://github.com/emiketic/emiketic-starter-meteor/commit/b2f8ad9400885d8f9ae17bca63ddb7d5de132234))
+
 ## [0.1.0](https://github.com/emiketic/emiketic-starter-meteor/compare/v0.0.1...v0.1.0) (2022-04-11)
 
 
