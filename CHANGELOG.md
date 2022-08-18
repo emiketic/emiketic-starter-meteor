@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/emiketic/emiketic-starter-meteor/compare/v0.2.0...v0.3.0) (2022-08-18)
+
+
+### Features
+
+* Upgraded Meteor + deps versions + added role/permission seed ([baaeac2](https://github.com/emiketic/emiketic-starter-meteor/commit/baaeac2c7b64f6ef22eea1ec6aefde9f10221b6c))
+
 ## [0.2.0](https://github.com/emiketic/emiketic-starter-meteor/compare/v0.1.1...v0.2.0) (2022-04-20)
 
 ### [0.1.1](https://github.com/emiketic/emiketic-starter-meteor/compare/v0.1.0...v0.1.1) (2022-04-20)
