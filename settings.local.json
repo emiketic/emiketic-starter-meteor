@@ -1,0 +1,19 @@
+{
+  "public": {
+    "APP_URL": "http://localhost:3000",
+    "localization": {
+      "defaultLocale": "fr-FR",
+      "forceLocale": "fr-FR"
+    }
+  },
+  "features": {
+    "auth": {}
+  },
+  "services": {
+    "mailer": {}
+  },
+  "seeds": {
+    "overwriteAccountsOnRestart": false,
+    "overwriteCollectionsOnRestart": []
+  }
+}

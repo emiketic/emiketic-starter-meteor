@@ -1,0 +1,23 @@
+{
+  "user-permissions": [
+    {
+      "topic": "sheet",
+      "permissions": [
+        "start-sheet.access",
+        "preparatory-work-sheet.access",
+        "start-implementation-sheet.access",
+        "modification-sheet.access",
+        "decision-sheet.access",
+        "decision-sheet.can-submit-validation-request",
+        "decision-sheet.can-approve-validation-request",
+        "start-sheet.can-submit-validation-request",
+        "start-implementation-sheet.can-submit-validation-request",
+        "start-sheet.can-approve-validation-request"
+      ]
+    },
+    {
+      "topic": "navigation",
+      "permissions": ["menu.can-click-create-project"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "user-roles": [
+    {
+      "identifier": "manager",
+      "name": "Manager"
+    },
+    {
+      "identifier": "admin",
+      "name": "Application Administrator"
+    },
+    {
+      "identifier": "super-admin",
+      "name": "System Administrator",
+      "permissions": ["unrestricted"]
+    }
+  ]
+}
